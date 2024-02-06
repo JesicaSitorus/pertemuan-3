@@ -4,13 +4,19 @@
     box-sizing: border-box;
     font-family: 'Poppins' sans-serif;
 }
-.container{
-    width: 100%;
-    height: 100vh;
-    background:#141a34;
-    display: flex;
+body{
+    display:flex ;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    background:#141a34;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+
 }
 .container form{
     width: 90%;
@@ -20,6 +26,7 @@
     border-radius: 4px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     position: relative;
+    margin-right:100px ;
 }
 .fa-paper-plane{
     position:absolute;
@@ -76,6 +83,16 @@ form button{
 #submit-error{
     color: red;
 }
-.input-group span{
+.input-group span i{
     color: seagreen;
+}
+.c-d{
+    width: 100%;
+    max-width: 500px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 30px 40px;
+    margin-top: 20px;
+    margin-right: 100px;
 }
